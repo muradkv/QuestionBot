@@ -12,6 +12,7 @@
 		FA3BE13222B58E2100D9083C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3BE13022B58E2100D9083C /* Main.storyboard */; };
 		FA3BE13422B58E2300D9083C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3BE13322B58E2300D9083C /* Assets.xcassets */; };
 		FA3BE13722B58E2300D9083C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3BE13522B58E2300D9083C /* LaunchScreen.storyboard */; };
+		FA6BD8C922B6E294007CB8A5 /* QuestionAnswerer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6BD8C822B6E294007CB8A5 /* QuestionAnswerer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FA3BE13322B58E2300D9083C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA3BE13622B58E2300D9083C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA3BE13822B58E2300D9083C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA6BD8C822B6E294007CB8A5 /* QuestionAnswerer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionAnswerer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				FA3BE12C22B58E2100D9083C /* AppDelegate.swift */,
 				FA3BE12E22B58E2100D9083C /* ViewController.swift */,
+				FA6BD8C822B6E294007CB8A5 /* QuestionAnswerer.swift */,
 				FA3BE13022B58E2100D9083C /* Main.storyboard */,
 				FA3BE13322B58E2300D9083C /* Assets.xcassets */,
 				FA3BE13522B58E2300D9083C /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA3BE12F22B58E2100D9083C /* ViewController.swift in Sources */,
+				FA6BD8C922B6E294007CB8A5 /* QuestionAnswerer.swift in Sources */,
 				FA3BE12D22B58E2100D9083C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
