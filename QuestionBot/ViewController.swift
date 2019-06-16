@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        questionField.becomeFirstResponder()
     }
 
     @IBAction func askButtonTapped(_ sender: Any) {
@@ -25,6 +26,11 @@ class ViewController: UIViewController {
 }
 
 extension ViewController: UITextFieldDelegate {
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
     
     @IBAction func editingChanged(_ sender: UITextField) {
     }
