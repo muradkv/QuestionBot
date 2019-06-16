@@ -10,11 +10,23 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var responseLabel: UILabel!
+    @IBOutlet var questionField: UITextField!
+    @IBOutlet var askButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
+    @IBAction func askButtonTapped(_ sender: Any) {
+    }
+    
+}
 
+extension ViewController: UITextFieldDelegate {
+    
+    @IBAction func editingChanged(_ sender: UITextField) {
+    }
 }
 
